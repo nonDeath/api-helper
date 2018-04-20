@@ -20,9 +20,10 @@ class Handler extends ExceptionHandler
     {
         return $this->captureRender(
             $request,
-            $exception
+            $exception,
+            function ($request, $exception) {
+                return parent::render($request, $exception);
+            }
         );
-
-        return parent::render($request, $exception);
     }
 }
