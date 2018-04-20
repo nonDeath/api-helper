@@ -1,0 +1,8 @@
+{
+  "Not Found": "No encontrado. La página o recurso solicitado ya no existe.",
+  "Bad Request": "La solicitud es incorrecta.",
+  "Forbidden": "Prohibido. No tiene permisos de acceso.",
+  "Internal Error": "Error interno. Hubo un problema en el servidor.",
+  "Unauthorized": "No autorizado. La página o recurso solicitado requiere autenticación.",
+  "Method Not Allowed": "Método no permitido. El método de solicitud no está soportado."
+}

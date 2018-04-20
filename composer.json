@@ -1,0 +1,27 @@
+{
+    "name": "spys/api-helper",
+    "description": "Provee un envoltorio para el desarrollo de APIs para Laravel framework basado en spatie",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo",
+            "email": "marceloaldo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "spatie/laravel-fractal": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spys\\ApiHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spys\\ApiHelper\\ApiHelperServiceProvider"
+            ]
+        }
+    }
+}
