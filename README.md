@@ -94,3 +94,13 @@ Este ejemplo devolverá un json:
         return $this->errorInternal($e->getMessage());
     }
 ```
+
+**Eadge Loading**
+
+Permitir edge loading de relaciones declaradas en el Transformer.
+
+```php
+// ejemplo con colección de recursos
+$collection = $modelInstance->withIncludes($request->include, new ModelTransformer());
+// luego enviar el response
+```
