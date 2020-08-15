@@ -1,8 +1,7 @@
-<?php namespace Spys\ApiHelper;
+<?php namespace ND\ApiHelper;
 
 use Exception;
 use Illuminate\Session\TokenMismatchException;
-use Styde\Html\Facades\Alert;
 
 trait ExceptionHandlerJsonTrait
 {

@@ -1,5 +1,5 @@
 <?php
-namespace Spys\ApiHelper;
+namespace ND\ApiHelper;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

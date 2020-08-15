@@ -1,4 +1,4 @@
-<?php namespace Spys\ApiHelper;
+<?php namespace ND\ApiHelper;
 
 use Symfony\Component\HttpKernel\Exception\HttpException;
 use League\Fractal\TransformerAbstract;

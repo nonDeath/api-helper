@@ -1,26 +1,35 @@
 {
-    "name": "spys/api-helper",
-    "description": "Provee un envoltorio para el desarrollo de APIs para Laravel framework basado en spatie",
+    "name": "non-death/api-helper",
+    "description": "Wrap API controllers for Laravel framework based on spatie/laravel-fractal",
+    "keywords": [
+        "spatie",
+        "laravel-fractal",
+        "laravel",
+        "fractal",
+        "lumen",
+        "api",
+        "transform"
+    ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Marcelo",
+            "name": "Marcelo G.",
             "email": "marceloaldo@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.0.0",
-        "spatie/laravel-fractal": "^5.3"
+        "php": ">=7.2",
+        "spatie/laravel-fractal": "^5.7"
     },
     "autoload": {
         "psr-4": {
-            "Spys\\ApiHelper\\": "src/"
+            "ND\\ApiHelper\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Spys\\ApiHelper\\ApiHelperServiceProvider"
+                "ND\\ApiHelper\\ApiHelperServiceProvider"
             ]
         }
     }

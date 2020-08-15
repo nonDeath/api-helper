@@ -1,4 +1,4 @@
-<?php namespace Spys\ApiHelper;
+<?php namespace ND\ApiHelper;
 
 class ResponseMessage
 {

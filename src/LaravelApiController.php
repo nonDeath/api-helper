@@ -1,6 +1,6 @@
 <?php
 
-namespace Spys\ApiHelper;
+namespace ND\ApiHelper;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

@@ -1,5 +1,5 @@
 <?php
-namespace Spys\ApiHelper;
+namespace ND\ApiHelper;
 
 use League\Fractal\TransformerAbstract;
 

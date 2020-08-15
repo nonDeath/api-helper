@@ -10,14 +10,14 @@ En la sección `repositories`
 ```
         {
             "type": "vcs",
-            "url": ""ssh://git@gitlabssh.salta.gob.ar/spys/api-helper.git"
+            "url": "ssh://git@github.com:nonDeath/api-helper.git"
         }
 ```
 
 En la sección `require`
 
 ```
-    "spys/api-helper": "^1.0"
+    "non-death/api-helper": "^2.0"
 ```
 
 Luego ejecutar el comando `composer update`
@@ -38,7 +38,7 @@ use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;`
 por: 
 
 ```
-use Spys\ApiHelper\Handler as ExceptionHandler;
+use ND\ApiHelper\Handler as ExceptionHandler;
 ```
 
 ### Controllers
@@ -46,7 +46,7 @@ Los controllers del API deben definirse así:
 
 ```php
 //...
-use Spys\ApiHelper\LaravelApiController as ApiController;
+use ND\ApiHelper\LaravelApiController as ApiController;
 
 class AccesosController extends ApiController
 {
