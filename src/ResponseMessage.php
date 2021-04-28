@@ -66,6 +66,6 @@ class ResponseMessage
      */
     protected function appMessage($element = 'registro', $action = 'creación', $type = 'success')
     {
-        return trans("messages.{$type}", ['action' => $action, 'element' => $element]);
+        return trans("api-helper::messages.{$type}", ['action' => $action, 'element' => $element]);
     }
 }
