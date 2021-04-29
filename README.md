@@ -24,7 +24,18 @@ Luego ejecutar el comando `composer update`
 
 ## Configuración
 
-Por ahora el paquete no requiere configuración.
+### Publicar traducciones
+
+```
+php artisan vendor:publish 
+```
+
+ó
+
+```
+php artisan vendor:publish --provider='ND\ApiHelper\ApiHelperServiceProvider' 
+```
+
 
 ## Uso
 
